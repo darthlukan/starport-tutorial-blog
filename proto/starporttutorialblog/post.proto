@@ -1,7 +1,7 @@
 syntax = "proto3";
-package darthlukan.starporttutorialblog.starporttutorialblog
+package darthlukan.starporttutorialblog.starporttutorialblog;
 
-option go_package = "github.com/darthlukan/starport-tutorial-blog/x/starport-tutorial-blog/types";
+option go_package = "github.com/darthlukan/starport-tutorial-blog/x/starporttutorialblog/types";
 
 import "gogoproto/gogo.proto";
 

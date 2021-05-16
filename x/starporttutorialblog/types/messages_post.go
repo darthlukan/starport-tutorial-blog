@@ -5,13 +5,13 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 )
 
-var _ sdk.Msg = $MsgCreatePost{}
+var _ sdk.Msg = &MsgCreatePost{}
 
-func NewMsgCreatePost(creator string, title string body string) *MsgCreatePost {
+func NewMsgCreatePost(creator string, title string, body string) *MsgCreatePost {
 	return &MsgCreatePost{
 		Creator: creator,
-		Title: title,
-		Body: body,
+		Title:   title,
+		Body:    body,
 	}
 }
 
