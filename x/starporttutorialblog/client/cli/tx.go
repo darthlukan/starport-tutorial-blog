@@ -36,7 +36,7 @@ func CmdCreatePost() *cobra.Command {
 			argsTitle := string(args[0])
 			argsBody := string(args[1])
 
-			clientCtx, err := client.GetCLientTxContext(cmd)
+			clientCtx, err := client.GetClientTxContext(cmd)
 			if err != nil {
 				return err
 			}
