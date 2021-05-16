@@ -1,0 +1,12 @@
+syntax = "proto3";
+package darthlukan.starporttutorialblog.starporttutorialblog;
+
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "github.com/darthlukan/starport-tutorial-blog/x/starporttutorialblog/types";
+
+// GenesisState defines the capability module's genesis state.
+message GenesisState {
+    // this line is used by starport scaffolding # genesis/proto/state
+}
+
